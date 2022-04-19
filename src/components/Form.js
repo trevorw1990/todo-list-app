@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 export default function Form( { addToDo }) {
     const [formData, setFormData] = useState({
-        text:"", completed:false
+        text:"", completed: false
     })
 
     const handleChange = (event) => {
